@@ -1,0 +1,5 @@
+2024-05-14 19:34:50,418 FILE: main.py IN: <module> MESSAGE: База данных создана
+2024-05-14 19:34:57,571 FILE: main.py IN: voice_handler MESSAGE: Голос пользователя переведен в текст
+2024-05-14 19:34:58,295 FILE: main.py IN: voice_handler MESSAGE: Текст пользователя отправлен к GPT
+2024-05-14 19:34:58,542 FILE: main.py IN: voice_handler MESSAGE: Ответ GPT переведен из текстав голос
+2024-05-14 19:34:58,886 FILE: main.py IN: voice_handler MESSAGE: Ответ GPT отправлен в виде голосового сообщения
