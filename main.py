@@ -144,7 +144,7 @@ def text_handler(message):
 
     msg = message.text
 
-    conn = sqlite3.connect('speech_kit.db')
+    conn = sqlite3.connect(DB_FILE)
     user_id = message.from_user.id
     cursor = conn.cursor()
     # Считаем, сколько аудиоблоков использовал пользователь
