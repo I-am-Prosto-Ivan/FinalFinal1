@@ -12,7 +12,7 @@ if 1 == 2:
     # BOT_TOKEN_PATH = 'C:/Users/user/PycharmProjects/pythonProject/ФинальныйФинал1/creds/bot_token.txt'  # файл для хранения bot_token
 else:
     #pass
-    HOME_DIR = '/home/student' #/pythonProject'  # путь к папке с проектом
+    HOME_DIR = '/home/student/FinalFinal1' #/pythonProject'  # путь к папке с проектом
     LOGS = f'{HOME_DIR}/log_file.txt'  # файл для логов
     DB_FILE = f'{HOME_DIR}/speech_kit3.db'  # файл для базы данных
     srcogg = f'{HOME_DIR}/audio.ogg'
