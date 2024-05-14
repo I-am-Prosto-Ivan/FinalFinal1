@@ -5,7 +5,7 @@ from creds import get_creds  # модуль для получения токен
 iam_token, folder_id = get_creds()  # получаем iam_token и folder_id из файлов
 def speech_to_text(data):
     # iam_token, folder_id для доступа к Yandex SpeechKit
-
+    iam_token, folder_id = get_creds()  # получаем iam_token и folder_id из файлов
 
     # Указываем параметры запроса
     params = "&".join([
@@ -36,7 +36,7 @@ def speech_to_text(data):
 
 
 def text_to_speech(text):
-
+    iam_token, folder_id = get_creds()  # получаем iam_token и folder_id из файлов
     # Аутентификация через IAM-токен
     headers = {
         'Authorization': f'Bearer {iam_token}',
