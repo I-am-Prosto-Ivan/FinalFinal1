@@ -9,6 +9,7 @@ from database import insert_row, count_all_symbol, count_all_blocks
 import math
 import logging
 from creds import get_bot_token  # модуль для получения bot_token
+from config import DB_FILE
 from  config import srcogg, LOGS
 
 #
@@ -26,7 +27,7 @@ logging.basicConfig(
 )
 
 
-connection = sqlite3.connect('speech_kit.db')
+connection = sqlite3.connect(DB_FILE)
 cursor = connection.cursor()
 database.create_table()
 logging.info("База данных создана")
